@@ -1,0 +1,405 @@
+{
+  "metadata": {
+    "input_documents": [
+      "South of France - Cities.pdf",
+      "South of France - Cuisine.pdf",
+      "South of France - History.pdf",
+      "South of France - Restaurants and Hotels.pdf",
+      "South of France - Things to Do.pdf",
+      "South of France - Tips and Tricks.pdf",
+      "South of France - Traditions and Culture.pdf"
+    ],
+    "persona": "Travel Planner",
+    "job_to_be_done": "Plan a trip of 4 days for a group of 10 college friends.",
+    "processing_timestamp": "2025-07-19T18:48:53.352087"
+  },
+  "extracted_sections": [
+    {
+      "document": "South of France - Cities.pdf",
+      "section_title": "\u2022 \nAirbus Factory Tours: Visit the Airbus factory for a fascinating tour of one ",
+      "page_number": 9,
+      "importance_rank": 1
+    },
+    {
+      "document": "South of France - Cities.pdf",
+      "section_title": "\u2022 \nPhotography: Recommend visiting during the Rencontres d'Arles photography fes",
+      "page_number": 12,
+      "importance_rank": 2
+    },
+    {
+      "document": "South of France - Cities.pdf",
+      "section_title": "\u2022 \nUniversity Influence: Highlight the vibrant student life and the influence of",
+      "page_number": 10,
+      "importance_rank": 3
+    },
+    {
+      "document": "South of France - Cities.pdf",
+      "section_title": "\u2022 \nLanguage: While French is the o\ufb03cial language, English is widely spoken in to",
+      "page_number": 2,
+      "importance_rank": 4
+    },
+    {
+      "document": "South of France - Cities.pdf",
+      "section_title": "\u2022 \nWalking Tour: Take a walking tour of sites related to Paul C\u00e9zanne, such as t",
+      "page_number": 8,
+      "importance_rank": 5
+    },
+    {
+      "document": "South of France - Cuisine.pdf",
+      "section_title": "\u2022 \nWine Tours: The South of France is renowned for its wine regions, including P",
+      "page_number": 6,
+      "importance_rank": 1
+    },
+    {
+      "document": "South of France - Cuisine.pdf",
+      "section_title": "In addition to dining at top restaurants, there are several culinary experiences",
+      "page_number": 6,
+      "importance_rank": 2
+    },
+    {
+      "document": "South of France - Cuisine.pdf",
+      "section_title": "\u2022 \nLa Table de Plaisance (Saint-\u00c9milion): A two-Michelin-starred restaurant o\ufb00er",
+      "page_number": 4,
+      "importance_rank": 3
+    },
+    {
+      "document": "South of France - Cuisine.pdf",
+      "section_title": "A Culinary Journey Through the South of France",
+      "page_number": 1,
+      "importance_rank": 4
+    },
+    {
+      "document": "South of France - Cuisine.pdf",
+      "section_title": "\u2022 \nPastry Workshops: French pastries are renowned worldwide, and the South of Fr",
+      "page_number": 7,
+      "importance_rank": 5
+    },
+    {
+      "document": "South of France - History.pdf",
+      "section_title": "\u2022 \nFestival de Perpignan: An annual photojournalism festival, Visa pour l'Image,",
+      "page_number": 11,
+      "importance_rank": 1
+    },
+    {
+      "document": "South of France - History.pdf",
+      "section_title": "Montpellier: A University City with Medieval Charm",
+      "page_number": 10,
+      "importance_rank": 2
+    },
+    {
+      "document": "South of France - History.pdf",
+      "section_title": "\u2022 \nPromenade des Anglais: This famous seaside promenade was built in the 19th ce",
+      "page_number": 3,
+      "importance_rank": 3
+    },
+    {
+      "document": "South of France - History.pdf",
+      "section_title": "\u2022 \nH\u00f4tel de Ville: The town hall of Aix-en-Provence, built in the 17th century, ",
+      "page_number": 9,
+      "importance_rank": 4
+    },
+    {
+      "document": "South of France - History.pdf",
+      "section_title": "The South of France, renowned for its picturesque landscapes, charming villages,",
+      "page_number": 1,
+      "importance_rank": 5
+    },
+    {
+      "document": "South of France - Restaurants and Hotels.pdf",
+      "section_title": "\u2022 \nClub Med Opio en Provence (Opio): A family-friendly resort o\ufb00ering a wide ran",
+      "page_number": 9,
+      "importance_rank": 1
+    },
+    {
+      "document": "South of France - Restaurants and Hotels.pdf",
+      "section_title": "\u2022 \nHotel Azur (Nice): A budget-friendly hotel o\ufb00ering comfortable rooms and easy",
+      "page_number": 8,
+      "importance_rank": 2
+    },
+    {
+      "document": "South of France - Restaurants and Hotels.pdf",
+      "section_title": "\u2022 \nH\u00f4tel Les Roches Rouges (Saint-Rapha\u00ebl): A family-friendly hotel located on t",
+      "page_number": 9,
+      "importance_rank": 3
+    },
+    {
+      "document": "South of France - Restaurants and Hotels.pdf",
+      "section_title": "\u2022 \nGrand-H\u00f4tel du Cap-Ferrat, A Four Seasons Hotel (Saint-Jean-Cap-Ferrat): A lu",
+      "page_number": 12,
+      "importance_rank": 4
+    },
+    {
+      "document": "South of France - Restaurants and Hotels.pdf",
+      "section_title": "\u2022 \nHotel de la Mer (Nice): A budget-friendly hotel o\ufb00ering comfortable rooms and",
+      "page_number": 8,
+      "importance_rank": 5
+    },
+    {
+      "document": "South of France - Things to Do.pdf",
+      "section_title": "\u2022 \nBordeaux: Take a day trip to the world-renowned wine region and visit its pre",
+      "page_number": 5,
+      "importance_rank": 1
+    },
+    {
+      "document": "South of France - Things to Do.pdf",
+      "section_title": "\u2022 \nP\u00e9rigord: Join a tru\ufb04e hunting tour followed by a cooking class.",
+      "page_number": 5,
+      "importance_rank": 2
+    },
+    {
+      "document": "South of France - Things to Do.pdf",
+      "section_title": "\u2022 \nGorges du Tarn: Go on a family-friendly hike and enjoy the scenic views.",
+      "page_number": 9,
+      "importance_rank": 3
+    },
+    {
+      "document": "South of France - Things to Do.pdf",
+      "section_title": "\u2022 \nMediterranean Coast: Charter a yacht or join a sailing tour to explore the co",
+      "page_number": 2,
+      "importance_rank": 4
+    },
+    {
+      "document": "South of France - Things to Do.pdf",
+      "section_title": "\u2022 \nMarseille: Visit Le Trolleybus, a popular bar with multiple rooms and music s",
+      "page_number": 11,
+      "importance_rank": 5
+    },
+    {
+      "document": "South of France - Tips and Tricks.pdf",
+      "section_title": "\u2022 \nPack a Day Bag: Bring a small day bag for daily excursions.",
+      "page_number": 8,
+      "importance_rank": 1
+    },
+    {
+      "document": "South of France - Tips and Tricks.pdf",
+      "section_title": "\u2022 \nSnacks: Bring a variety of snacks for travel and outings.",
+      "page_number": 6,
+      "importance_rank": 2
+    },
+    {
+      "document": "South of France - Tips and Tricks.pdf",
+      "section_title": "The Ultimate South of France Travel Companion: Your Comprehensive Guide to Packi",
+      "page_number": 1,
+      "importance_rank": 3
+    },
+    {
+      "document": "South of France - Tips and Tricks.pdf",
+      "section_title": "\u2022 \nAdditional Tips: Plan your wine tour route in advance and consider hiring a d",
+      "page_number": 8,
+      "importance_rank": 4
+    },
+    {
+      "document": "South of France - Tips and Tricks.pdf",
+      "section_title": "Packing for a trip to the South of France involves considering the season, plann",
+      "page_number": 9,
+      "importance_rank": 5
+    },
+    {
+      "document": "South of France - Traditions and Culture.pdf",
+      "section_title": "Christmas in Provence is marked by unique traditions that reflect the region's c",
+      "page_number": 4,
+      "importance_rank": 1
+    },
+    {
+      "document": "South of France - Traditions and Culture.pdf",
+      "section_title": "The South of France is home to several important pilgrimage sites. The town of L",
+      "page_number": 4,
+      "importance_rank": 2
+    },
+    {
+      "document": "South of France - Traditions and Culture.pdf",
+      "section_title": "accompanied by shepherds and their dogs. It's a unique opportunity to witness a ",
+      "page_number": 3,
+      "importance_rank": 3
+    },
+    {
+      "document": "South of France - Traditions and Culture.pdf",
+      "section_title": "Lavender is synonymous with Provence, and the region's lavender fields are a maj",
+      "page_number": 4,
+      "importance_rank": 4
+    },
+    {
+      "document": "South of France - Traditions and Culture.pdf",
+      "section_title": "Held in Nice from mid-February to early March, the Carnival of Nice is one of th",
+      "page_number": 2,
+      "importance_rank": 5
+    }
+  ],
+  "subsection_analysis": [
+    {
+      "document": "South of France - Cities.pdf",
+      "refined_text": "\u2022 \nAirbus Factory Tours: Visit the Airbus factory for a fascinating tour of one of the \nworld's leading aircraft manufacturers.",
+      "page_number": 9
+    },
+    {
+      "document": "South of France - Cities.pdf",
+      "refined_text": "\u2022 \nPhotography: Recommend visiting during the Rencontres d'Arles photography festival \nfor a unique cultural experience.",
+      "page_number": 12
+    },
+    {
+      "document": "South of France - Cities.pdf",
+      "refined_text": "\u2022 \nUniversity Influence: Highlight the vibrant student life and the influence of the \nuniversity on the city's culture.",
+      "page_number": 10
+    },
+    {
+      "document": "South of France - Cities.pdf",
+      "refined_text": "\u2022 \nLanguage: While French is the o\ufb03cial language, English is widely spoken in tourist \nareas. Learning a few basic French phrases can enhance your travel experience.",
+      "page_number": 2
+    },
+    {
+      "document": "South of France - Cities.pdf",
+      "refined_text": "\u2022 \nWalking Tour: Take a walking tour of sites related to Paul C\u00e9zanne, such as the Terrain \ndes Peintres and the Bib\u00e9mus Quarry.",
+      "page_number": 8
+    },
+    {
+      "document": "South of France - Cuisine.pdf",
+      "refined_text": "\u2022 \nWine Tours: The South of France is renowned for its wine regions, including Provence \nand Languedoc. Take a wine tour to visit vineyards, taste local wines, and learn about \nthe winemaking process. Many wineries o\ufb00er guided tours and tastings, giving you the \nopportunity to sample a variety of wines and discover new favorites. Don't miss the \nchance to try ros\u00e9 from Provence, which is famous for its light, refreshing flavor.",
+      "page_number": 6
+    },
+    {
+      "document": "South of France - Cuisine.pdf",
+      "refined_text": "In addition to dining at top restaurants, there are several culinary experiences you should \nconsider:",
+      "page_number": 6
+    },
+    {
+      "document": "South of France - Cuisine.pdf",
+      "refined_text": "\u2022 \nLa Table de Plaisance (Saint-\u00c9milion): A two-Michelin-starred restaurant o\ufb00ering a \nsophisticated menu that highlights the flavors of the region. The restaurant is located \nin a historic building in the heart of Saint-\u00c9milion, a town known for its world-class \nwines. The menu features dishes that pair beautifully with the local wines, creating a \ntruly memorable dining experience.",
+      "page_number": 4
+    },
+    {
+      "document": "South of France - Cuisine.pdf",
+      "refined_text": "A Culinary Journey Through the South of France",
+      "page_number": 1
+    },
+    {
+      "document": "South of France - Cuisine.pdf",
+      "refined_text": "\u2022 \nPastry Workshops: French pastries are renowned worldwide, and the South of France \nis no exception. Join a pastry workshop to learn how to make classic French pastries \nlike croissants, \u00e9clairs, and macarons. These workshops are a fun and interactive way \nto improve your baking skills and take home some delicious treats.",
+      "page_number": 7
+    },
+    {
+      "document": "South of France - History.pdf",
+      "refined_text": "\u2022 \nFestival de Perpignan: An annual photojournalism festival, Visa pour l'Image, held in \nPerpignan, attracts photographers and journalists from around the world.",
+      "page_number": 11
+    },
+    {
+      "document": "South of France - History.pdf",
+      "refined_text": "Montpellier: A University City with Medieval Charm",
+      "page_number": 10
+    },
+    {
+      "document": "South of France - History.pdf",
+      "refined_text": "\u2022 \nPromenade des Anglais: This famous seaside promenade was built in the 19th century \nand named after the English aristocrats who frequented Nice. It's perfect for a leisurely \nstroll along the coast.",
+      "page_number": 3
+    },
+    {
+      "document": "South of France - History.pdf",
+      "refined_text": "\u2022 \nH\u00f4tel de Ville: The town hall of Aix-en-Provence, built in the 17th century, is an elegant \nbuilding with a beautiful clock tower and an ornate facade. The square in front of the \nH\u00f4tel de Ville is a lively spot, often hosting markets and events.",
+      "page_number": 9
+    },
+    {
+      "document": "South of France - History.pdf",
+      "refined_text": "The South of France, renowned for its picturesque landscapes, charming villages, and \nstunning coastline, is also steeped in history. From ancient Roman ruins to medieval \nfortresses and Renaissance architecture, this region o\ufb00ers a fascinating glimpse into the past. \nThis guide will take you through the histories of major cities, famous historical sites, and other \npoints of interest to help you plan an enriching and unforgettable trip.",
+      "page_number": 1
+    },
+    {
+      "document": "South of France - Restaurants and Hotels.pdf",
+      "refined_text": "\u2022 \nClub Med Opio en Provence (Opio): A family-friendly resort o\ufb00ering a wide range of \nactivities for children and adults, including sports, entertainment, and kids' clubs. The \nbeautiful setting and all-inclusive amenities make it a hassle-free vacation spot.",
+      "page_number": 9
+    },
+    {
+      "document": "South of France - Restaurants and Hotels.pdf",
+      "refined_text": "\u2022 \nHotel Azur (Nice): A budget-friendly hotel o\ufb00ering comfortable rooms and easy \naccess to the beach and city center. The modern amenities and convenient location \nmake it a great choice for budget-conscious travelers.",
+      "page_number": 8
+    },
+    {
+      "document": "South of France - Restaurants and Hotels.pdf",
+      "refined_text": "\u2022 \nH\u00f4tel Les Roches Rouges (Saint-Rapha\u00ebl): A family-friendly hotel located on the \nbeach, o\ufb00ering comfortable rooms, a kids' club, and a variety of water sports. The \nbeachfront location and family-oriented amenities make it a great choice for a seaside \nvacation.",
+      "page_number": 9
+    },
+    {
+      "document": "South of France - Restaurants and Hotels.pdf",
+      "refined_text": "\u2022 \nGrand-H\u00f4tel du Cap-Ferrat, A Four Seasons Hotel (Saint-Jean-Cap-Ferrat): A luxurious \nhotel set on 7 hectares of Mediterranean gardens, o\ufb00ering elegant rooms, a spa, and a \nprivate beach. The exclusive setting and world-class amenities make it a top choice for \nluxury travelers.",
+      "page_number": 12
+    },
+    {
+      "document": "South of France - Restaurants and Hotels.pdf",
+      "refined_text": "\u2022 \nHotel de la Mer (Nice): A budget-friendly hotel o\ufb00ering comfortable rooms and easy \naccess to the beach and city center. The modern amenities and convenient location \nmake it a great choice for budget-conscious travelers.",
+      "page_number": 8
+    },
+    {
+      "document": "South of France - Things to Do.pdf",
+      "refined_text": "\u2022 \nBordeaux: Take a day trip to the world-renowned wine region and visit its prestigious \nch\u00e2teaux.",
+      "page_number": 5
+    },
+    {
+      "document": "South of France - Things to Do.pdf",
+      "refined_text": "\u2022 \nP\u00e9rigord: Join a tru\ufb04e hunting tour followed by a cooking class.",
+      "page_number": 5
+    },
+    {
+      "document": "South of France - Things to Do.pdf",
+      "refined_text": "\u2022 \nGorges du Tarn: Go on a family-friendly hike and enjoy the scenic views.",
+      "page_number": 9
+    },
+    {
+      "document": "South of France - Things to Do.pdf",
+      "refined_text": "\u2022 \nMediterranean Coast: Charter a yacht or join a sailing tour to explore the coastline \nand nearby islands.",
+      "page_number": 2
+    },
+    {
+      "document": "South of France - Things to Do.pdf",
+      "refined_text": "\u2022 \nMarseille: Visit Le Trolleybus, a popular bar with multiple rooms and music styles.",
+      "page_number": 11
+    },
+    {
+      "document": "South of France - Tips and Tricks.pdf",
+      "refined_text": "\u2022 \nPack a Day Bag: Bring a small day bag for daily excursions.",
+      "page_number": 8
+    },
+    {
+      "document": "South of France - Tips and Tricks.pdf",
+      "refined_text": "\u2022 \nSnacks: Bring a variety of snacks for travel and outings.",
+      "page_number": 6
+    },
+    {
+      "document": "South of France - Tips and Tricks.pdf",
+      "refined_text": "The Ultimate South of France Travel Companion: Your Comprehensive Guide to Packing, \nPlanning, and Exploring",
+      "page_number": 1
+    },
+    {
+      "document": "South of France - Tips and Tricks.pdf",
+      "refined_text": "\u2022 \nAdditional Tips: Plan your wine tour route in advance and consider hiring a driver or \njoining a guided tour to avoid drinking and driving.",
+      "page_number": 8
+    },
+    {
+      "document": "South of France - Tips and Tricks.pdf",
+      "refined_text": "Packing for a trip to the South of France involves considering the season, planned activities, \nand the needs of both adults and children. By following this comprehensive guide and \nincorporating the tips and tricks provided, you'll be well-prepared for a comfortable and \nenjoyable trip. Remember to pack light, versatile clothing, and essential items to make the \nmost of your travel experience. Bon voyage!",
+      "page_number": 9
+    },
+    {
+      "document": "South of France - Traditions and Culture.pdf",
+      "refined_text": "Christmas in Provence is marked by unique traditions that reflect the region's cultural \nheritage. One of the most distinctive customs is the \"13 Desserts,\" a feast of thirteen di\ufb00erent \nsweets served after Midnight Mass on Christmas Eve. The number represents Jesus and the \ntwelve apostles. Another tradition is the \"santon\" figurines, which are handcrafted clay figures",
+      "page_number": 4
+    },
+    {
+      "document": "South of France - Traditions and Culture.pdf",
+      "refined_text": "The South of France is home to several important pilgrimage sites. The town of Lourdes, \nlocated in the Pyrenees, is one of the most famous, attracting millions of visitors each year. \nPilgrims come to Lourdes to visit the Sanctuary of Our Lady of Lourdes, where the Virgin \nMary is said to have appeared to a young girl in 1858. The town of Saintes-Maries-de-la-Mer \nis another significant pilgrimage site, particularly for the Romani community, who venerate \nSaint Sara.",
+      "page_number": 4
+    },
+    {
+      "document": "South of France - Traditions and Culture.pdf",
+      "refined_text": "accompanied by shepherds and their dogs. It's a unique opportunity to witness a living \ntradition and enjoy local food and music.",
+      "page_number": 3
+    },
+    {
+      "document": "South of France - Traditions and Culture.pdf",
+      "refined_text": "Lavender is synonymous with Provence, and the region's lavender fields are a major \nattraction. The fragrant flowers are harvested to produce a variety of products, including \nessential oils, soaps, and sachets. Lavender festivals, such as the one in Sault in July, celebrate \nthe harvest with parades, music, and markets. Visitors can also tour lavender farms and \ndistilleries to learn about the production process.",
+      "page_number": 4
+    },
+    {
+      "document": "South of France - Traditions and Culture.pdf",
+      "refined_text": "Held in Nice from mid-February to early March, the Carnival of Nice is one of the most \nfamous and oldest carnivals in the world. The festivities include parades with elaborate floats, \nstreet performances, and fireworks. The Battle of Flowers, where participants throw flowers \ninto the crowd, is a highlight of the event. The carnival's vibrant atmosphere and colorful \ndisplays attract visitors from all over the world.",
+      "page_number": 2
+    }
+  ]
+}
