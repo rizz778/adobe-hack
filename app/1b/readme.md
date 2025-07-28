@@ -26,14 +26,17 @@ You are to:
 
 ## 📁 Directory Structure
 
+```
 1b/
 ├── collection1/
-│ ├── pdfs/ # Folder containing input PDF files
-│ ├── 1b_input.json # JSON input with persona, job, and filenames
-│ └── 1b_output.json # Output with ranked sections and refined text
+│   ├── pdfs/                # Folder containing input PDF files
+│   ├── 1b_input.json        # JSON input with persona, job, and filenames
+│   └── 1b_output.json       # Output with ranked sections and refined text
 ├── collection2/
-│ ├── mainb.py # Python script for processing documents
-│ └── readme.md # This README file
+│   ├── mainb.py             # Python script for processing documents
+│   └── readme.md            # This README file
+```
+
 
 ---
 
