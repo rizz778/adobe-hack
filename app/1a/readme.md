@@ -74,12 +74,12 @@ Each processed PDF will generate a corresponding .json file like this:
   json — for reading and writing structured output
   
   re — for optional regex matching (if used in extractor.py)
-
+  
 ## ⚙️ Constraints Met
-    Constraint Status
-    Input PDFs ≤ 50 pages ✅
-    Title + Headings (H1, H2, H3) ✅
-    Output format (valid JSON) ✅
-    Execution time ≤ 10s/PDF ✅
-    Offline-only (no API calls) ✅
-CPU-only execution (amd64) ✅
+
+- ✅ **Input PDFs ≤ 50 pages** — Efficiently processes PDFs with up to 50 pages without performance degradation.
+- ✅ **Title + Headings (H1, H2, H3)** — Extracts semantically significant headings and section content where applicable.
+- ✅ **Output format (valid JSON)** — Produces well-structured, indented JSON output with required metadata and section info.
+- ✅ **Execution time ≤ 10s/PDF** — Processes each PDF well within the 10-second constraint under typical system loads.
+- ✅ **Offline-only (no API calls)** — All models and processing are local; no internet or API dependencies.
+- ✅ **CPU-only execution (amd64)** — Fully compatible with CPU-only environments using amd64 architecture; no GPU required.
