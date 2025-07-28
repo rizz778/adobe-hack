@@ -100,3 +100,22 @@ python mainb.py
   - `json` — for reading and writing structured input/output.
   - `datetime` — to log processing timestamps.
   - `pathlib` — for cross-platform path management.
+
+ ---
+ ## ✅ Constraints Met
+
+- ✅ **Multi-PDF Support**: Handles multiple documents in a single run as specified in the input JSON.
+- ✅ **Persona + Job-To-Be-Done Conditioning**: Embeddings are generated using a natural language query formed from both persona and job-to-be-done context.
+- ✅ **Semantic Understanding**: Utilizes a transformer model (`all-MiniLM-L6-v2`) to compute semantic relevance between input query and document content.
+- ✅ **Granular Section Analysis**: Extracts meaningful paragraph-level text blocks (min length > 30 chars) from PDFs.
+- ✅ **Top-K Section Ranking**: Ranks and selects top-K most relevant sections per document based on cosine similarity scores.
+- ✅ **Structured Output**: Outputs a JSON file containing:
+  - `metadata` (persona, job, documents used, timestamp)
+  - `extracted_sections` (ranked highlights)
+  - `subsection_analysis` (detailed content)
+- ✅ **Robust Text Extraction**: Uses PyMuPDF to extract structured text blocks from all pages of the PDF.
+- ✅ **Error Handling**: Skips missing PDFs and warns about empty documents without crashing.
+- ✅ **Portable Paths**: Uses `pathlib` for platform-independent file handling.
+- ✅ **Lightweight & Efficient**: Runs with a lightweight transformer model suitable for local or cloud environments.
+
+
