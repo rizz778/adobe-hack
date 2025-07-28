@@ -61,7 +61,37 @@ You are to:
    - `subsection_analysis` (refined content per section)
 
 ---
+## 🛠️ How to Run
 
+### 1. 🔧 Install Dependencies
+
+Make sure you have Python 3.8+ installed. Then run:
+
+```bash
+pip install pymupdf sentence-transformers
+```
+### 2. 📂 Place Files
+Place all input PDF files in: 1b/collection1/pdfs/
+
+Create the input JSON: 1b/collection1/1b_input.json
+
+Example 1b_input.json format:
+```
+{
+  "persona": { "role": "UX Designer" },
+  "job_to_be_done": { "task": "Redesign user onboarding flow" },
+  "documents": [
+    { "filename": "doc1.pdf" },
+    { "filename": "doc2.pdf" }
+  ]
+}
+```
+### 3. ▶️ Run the Script
+Navigate to the root directory of the project (1b/) and run:
+```
+python mainb.py
+```
+---
 ## 🧰 Technologies Used
 
 - [**PyMuPDF** (`fitz`)](https://pymupdf.readthedocs.io/) — Used for parsing and extracting text blocks from PDF files.
