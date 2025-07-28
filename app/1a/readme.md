@@ -19,13 +19,13 @@ You're given unstructured PDF documents and need to make sense of their structur
 ---
 
 ## 📁 Directory Structure
-
+```
 1a/
 ├── maina.py # Main driver script to process all PDFs
 ├── extractor.py # Core logic for outline extraction
 ├── pdfs/ # Input folder containing .pdf files
 └── outputs/ # Output folder containing generated .json files
-
+```
 ---
 
 ## 🚀 How to Run
@@ -39,7 +39,7 @@ You're given unstructured PDF documents and need to make sense of their structur
 pip install pymupdf
 ```
 
-###▶️ Run the Script
+### ▶️ Run the Script
 
 cd 1a
 python maina.py
@@ -51,9 +51,9 @@ Extract structured outlines using extractor.py
 
 Save the output JSON files to the outputs/ directory
 
-##📤 Sample Output Format
+## 📤 Sample Output Format
 Each processed PDF will generate a corresponding .json file like this:
-
+```
 {
 "title": "Understanding AI",
 "outline": [
@@ -62,22 +62,23 @@ Each processed PDF will generate a corresponding .json file like this:
 { "level": "H3", "text": "History of AI", "page": 3 }
 ]
 }
-🧰 Technologies Used
-PyMuPDF (fitz) — for PDF text and layout extraction
+```
+## 🧰 Technologies Used
+  PyMuPDF (fitz) — for PDF text and layout extraction
+  
+  Python Standard Libraries:
+  
+  os and pathlib — for file and directory handling
+  
+  json — for reading and writing structured output
+  
+  re — for optional regex matching (if used in extractor.py)
 
-Python Standard Libraries:
-
-os and pathlib — for file and directory handling
-
-json — for reading and writing structured output
-
-re — for optional regex matching (if used in extractor.py)
-
-##⚙️ Constraints Met
-Constraint Status
-Input PDFs ≤ 50 pages ✅
-Title + Headings (H1, H2, H3) ✅
-Output format (valid JSON) ✅
-Execution time ≤ 10s/PDF ✅
-Offline-only (no API calls) ✅
+## ⚙️ Constraints Met
+    Constraint Status
+    Input PDFs ≤ 50 pages ✅
+    Title + Headings (H1, H2, H3) ✅
+    Output format (valid JSON) ✅
+    Execution time ≤ 10s/PDF ✅
+    Offline-only (no API calls) ✅
 CPU-only execution (amd64) ✅
