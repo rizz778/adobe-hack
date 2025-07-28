@@ -36,7 +36,7 @@ You're given unstructured PDF documents and need to make sense of their structur
 - Required Python libraries:
 ```
 ```bash
-pip install pymupdf
+pip install -r requirements.txt
 ```
 
 ### ▶️ Run the Script
@@ -64,6 +64,24 @@ Each processed PDF will generate a corresponding .json file like this:
 ]
 }
 ```
+## 🐳 Docker Instructions
+
+### 1. Build the Docker Image
+
+```sh
+docker build --platform linux/amd64 -t adobe-hack-1a:v1 .
+```
+
+### 2. Run the Docker Container
+
+```sh
+docker run --rm -v $(pwd)/pdfs:/app/pdfs -v $(pwd)/outputs:/app/outputs --network none adobe-hack-1a:v1
+```
+
+- Place your PDFs in the `pdfs/` folder.
+- The output JSON files will be generated in the `outputs/` folder.
+
+
 ## 🧰 Technologies Used
   PyMuPDF (fitz) — for PDF text and layout extraction
   

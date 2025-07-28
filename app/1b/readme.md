@@ -68,7 +68,7 @@ You are to:
 Make sure you have Python 3.8+ installed. Then run:
 
 ```bash
-pip install pymupdf sentence-transformers
+pip install -r requirements.txt
 ```
 ### 2. 📂 Place Files
 Place all input PDF files in: 1b/collection1/pdfs/
@@ -86,6 +86,25 @@ Example 1b_input.json format:
   ]
 }
 ```
+
+
+## 🐳 Docker Instructions
+
+### 1. Build the Docker Image
+
+```sh
+docker build --platform linux/amd64 -t adobe-hack-1b:v1 .
+```
+
+### 2. Run the Docker Container
+
+```sh
+docker run --rm -v $(pwd)/collection1/pdfs:/app/collection1/pdfs -v $(pwd)/collection1:/app/collection1 --network none adobe-hack-1b:v1
+```
+
+- Place your PDFs in `collection1/pdfs/`
+- Place your `1b_input.json` in `collection1/`
+- The output `1b_output.json` will be generated in `collection1/
 ### 3. ▶️ Run the Script
 Navigate to the root directory of the project (1b/) and run:
 ```
