@@ -31,18 +31,19 @@ You're given unstructured PDF documents and need to make sense of their structur
 ## 🚀 How to Run
 
 ### 🐍 Prerequisites
-
+```
 - Python 3.7+
 - Required Python libraries:
-
+```
 ```bash
 pip install pymupdf
 ```
 
 ### ▶️ Run the Script
-
+```
 cd 1a
 python maina.py
+```
 This will:
 
 Read all .pdf files in the pdfs/ folder
