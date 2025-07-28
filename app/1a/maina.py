@@ -6,8 +6,8 @@ from pathlib import Path
 from extractor import extract_outline
 
 def process_pdfs():
-    input_dir = Path("1a")
-    output_dir = Path("output1a")
+    input_dir = Path("pdfs")
+    output_dir = Path("outputs")
     output_dir.mkdir(parents=True, exist_ok=True)
 
     pdf_files = list(input_dir.glob("*.pdf"))

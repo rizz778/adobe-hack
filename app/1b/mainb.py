@@ -8,9 +8,9 @@ import json
 # Configurable Parameters
 # ----------------------
 
-INPUT_JSON = "1b_input.json"
-PDF_DIR = Path("1b")  # Folder containing all PDFs
-OUTPUT_JSON = "1b_output.json"
+INPUT_JSON = "collection1/1b_input.json"
+PDF_DIR = Path("collection1/pdfs")  # Folder containing all PDFs
+OUTPUT_JSON = "collection1/1b_output.json"
 TOP_K = 5  # Top K sections per PDF
 
 # ----------------------
